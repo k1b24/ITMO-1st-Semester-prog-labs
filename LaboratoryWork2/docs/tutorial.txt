@@ -1,0 +1,9 @@
+Есть файл Lab2.java с основным кодом, который запускает бой, в нем import pokemons и еще импортирован jar-ник
+
+Создаешь на гелиосе папку classes (в нее будем отправлять все скомпилированные java файлы)
+
+Пишем две команды
+
+javac -cp Pokemon.jar -d classes moves/*.java pokemons/*.java Lab2.java 
+потом пишем
+java -cp Pokemon.jar:classes Lab2
